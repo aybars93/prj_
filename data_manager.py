@@ -69,7 +69,7 @@ def get_observational_data(path_, path_t2, normalize=True, channels=3, next_n=7)
 	data_y1 = np.asarray(data_y1)
 	data_y2 = np.asarray(data_y2)
 
-	return data_train, data_y1, data_y2
+	return data_X, data_y1, data_y2
 
 
 
